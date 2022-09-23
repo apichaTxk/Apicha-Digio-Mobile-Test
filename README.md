@@ -1,16 +1,24 @@
 # apicha_digio_mobile_test
 
-A new Flutter project.
+สวัสดีครับ ผมชื่อ อภิชา ตรรกะธีรยากร
 
-## Getting Started
+การทดสอบรันโปรเจค
+- หลังจากที่ทำการดาวน์โหลดลงมาที่เครื่องคอมพิวเตอร์แล้ว
+- ให้ทำการ open โปรเจคคนี้ผ่าน Android Studio
 
-This project is a starting point for a Flutter application.
+***กรณีที่รันไม่ได้****
+ให้ทำการใส่คำสั่ง 3 ตัวนี้ตามลำดับผ่าน Terminal ใน Android Studio ที่เปิดโปรเจคนี้แล้ว
+1. flutter channel stable
+2. flutter upgrade
+3. flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+---------------------------------------------------------
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+เมื่อรันโปรเจคสำเร็จแล้ว
+- ในหน้าแรกจะเป็นหน้าแสดงรายการสูตรอาหาร โดยดึงข้อมูลจาก recipes.json
+(ในแอปนี้ผมทำการเก็บข้อมูลไว้ในฐานข้อมูลของแอปได้ไม่สำเร็จ จึงใช้วิธีดึงข้อมูลจาก json ตามปกติ ตัวกระผมนั้นได้ลองทำอย่างสุดความสามารถแล้ว และจะศึกษาและหาข้อมูลเพิ่มเติมหลังจากนี้ครับ 
+กราบขออภัยเป็นอย่างสูงครับ)
+- บริเวณฝั่งด้านขวาของ card แต่ละอันที่แสดงในรูปแบบ ListView นี้ จะมีปุ่มให้กด 2 ปุ่ม ได้แก่
+  - ปุ่มรูปดาว สำหรับ รายการที่ชอบ
+  - ปุ่มรูปลูกศร สำหรับ เข้าดูข้อมูลทั้งหมด
+- ในหน้าข้อมูลทั้งหมด จะแสดงข้อมูลที่จำเป็นทั้งหมดของสูตรอาหารที่เรากดเข้าดู
